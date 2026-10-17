@@ -1,11 +1,11 @@
 cask "portkeep" do
-  version "0.3.0"
-  sha256 "713f0d58856548fca15af24622897e7094b9651cce5091ad22d13aeddaa11da6"
+  version "0.4.0"
+  sha256 "8ce5fd7078e74b590f27c3e54476515dc0f41a47f6d6d20f7b0e00317432b6a1"
 
   url "https://github.com/rattamnoon/portkeep/releases/download/v#{version}/Portkeep-#{version}.dmg"
   name "Portkeep"
   desc "Menu bar app that keeps SSH, AWS SSM, kubectl and other port forwards up"
-  homepage "https://github.com/rattamnoon/portkeep"
+  homepage "https://portkeep.rattamnoon.com/"
 
   livecheck do
     url :url
