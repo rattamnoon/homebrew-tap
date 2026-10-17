@@ -1,6 +1,6 @@
 cask "portkeep" do
-  version "0.2.0"
-  sha256 "343a9ebf3a4322f58b0b7c34233ef7c783295796576fb28f590cf4f7dae792b3"
+  version "0.3.0"
+  sha256 "713f0d58856548fca15af24622897e7094b9651cce5091ad22d13aeddaa11da6"
 
   url "https://github.com/rattamnoon/portkeep/releases/download/v#{version}/Portkeep-#{version}.dmg"
   name "Portkeep"
@@ -15,6 +15,7 @@ cask "portkeep" do
   depends_on macos: :sonoma
 
   app "Portkeep.app"
+  binary "#{appdir}/Portkeep.app/Contents/Resources/bin/portkeep"
 
   zap trash: [
     "~/Library/Application Support/Portkeep",
