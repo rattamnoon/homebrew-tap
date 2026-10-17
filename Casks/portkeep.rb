@@ -1,6 +1,6 @@
 cask "portkeep" do
-  version "0.1.0"
-  sha256 "9f0170906cb2741e57b2658356bf8a7e2d6debcbef229f9df98bd97b36433865"
+  version "0.2.0"
+  sha256 "343a9ebf3a4322f58b0b7c34233ef7c783295796576fb28f590cf4f7dae792b3"
 
   url "https://github.com/rattamnoon/portkeep/releases/download/v#{version}/Portkeep-#{version}.dmg"
   name "Portkeep"
